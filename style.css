@@ -1,0 +1,97 @@
+.bg--home
+{
+   background-color: /*#1d5c2e*/ #E5E5E5;
+}
+.img_profile
+{
+
+  position: absolute;
+  left: 55.78%;
+  right: 13.2%;
+  top: 14.17%;
+  bottom: 29;
+}
+#name
+{
+  position: absolute;
+  left: 8.12%;
+  right: 44.22%;
+  top: 27.58%;
+  bottom: 60.69%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+
+  color: #000000;
+
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+#caption
+{
+  position: absolute;
+left: 8.12%;
+right: 46.56%;
+top: 42.31%;
+bottom: 55.83%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#detail
+{
+  position: absolute;
+left: 8.12%;
+right: 51.56%;
+top: 48.14%;
+bottom: 48.14%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 150;
+font-size: 25px;
+line-height: 35px;
+
+color: #000000;
+
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.bg--about{
+  background-color: #f7484e;
+}
+.align-about
+{
+  /* position: relative; */
+position: absolute;
+width: 640px;
+height: 720px;
+left: 0px;
+top: 100%;
+
+}
+/* .img-position
+{
+  vertical-align: middle;
+} */
+@media (min-width: 2px)
+.vertical-align--s-middle {
+    vertical-align:middle;
+}
+.subtitled {
+    margin-bottom: 0!important;
+}
+.uppercase {
+    text-transform: uppercase!important;
+}
+.text-color--white {
+    color: #fff;
+}
