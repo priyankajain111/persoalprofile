@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>fade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="imgcss.css">
+    <script  src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script>
+  $(window).scroll(function(){
+  $(".top").css("opacity", 1 - $(window).scrollTop() / 250);
+  });
+
+</script>
+
+
+  </head>
+  <body>
+    <div class="top"><img src="disp.svg" class="img_profile" alt="" width="500px" height="400px"></div>
+    <p id="name">Full Stack Developer</p>
+      <p id="caption">Artist by heart and developer by  Profession</p>
+      <p id="detail">Currently a BTech fourth year student at
+        Banastali Vidyapith,Rajasthan</p>
+
+        <section class="about bg--about align-about">
+          <div class="vertical-align--s-middle">
+                    <h2 class="text-color--white subtitled uppercase">
+                      <img src="./assets/img/about.svg" width="255" alt="">
+                    </h2>
+                  </div>
+          <h2 class="text-color--white subtitled uppercase">
+                      <img src="ABOUT.svg" width="255" alt="about">
+
+
+      </h2>
+
+        </section>
+
+
+  </body>
+</html>
